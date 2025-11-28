@@ -30,6 +30,11 @@ fleet-gitviz ./fleet-gitops
 ```bash
 open ./output/index.html   # macOS
 # or just open the file in any browser: ./output/index.html
+
+# or use the http.server (Python3.x required)
+cd ./output
+python3 -m http.server 8000
+open http://localhost:8000
 ```
 
 ## Inputs
